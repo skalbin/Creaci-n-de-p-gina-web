@@ -49,7 +49,6 @@ a {
   background: #FF05AF;
   padding: 20px 30px 20px 30px;
   color: white;
-
 }
 
 header {
@@ -258,6 +257,13 @@ span {
   right: 15px; /*solamente se puede aplicar si se aplica la propiedad position: fixed*/
 }
 
+.lista a {
+  background: none;
+  color: black;
+  text-decoration: none;
+  padding: 0px !important;
+
+}
 .menu-icon {
   display: none; /*con display none ocultamos un elemento*/
 }
